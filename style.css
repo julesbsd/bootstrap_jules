@@ -1,0 +1,60 @@
+/* Body Style */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#navbar {
+    background-color: rgb(199, 21, 21);
+}
+
+.button_accueil {
+    width: 300px;
+    border: 1px solid black;
+    background: #990000;
+    border-radius: 40px;
+}
+
+.couleur_rouge {
+    background: #990000;
+}
+
+.couleur_brouge_fonce {
+    background: #5C0000;
+}
+
+.couleur_vert {
+    color: rgb(3, 199, 3);
+}
+
+.couleur_blanc {
+    color: white;
+}
+
+.font_pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.font_pacifico_menu {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+.font_pacifico_accueil {
+    font-family: 'Pacifico', cursive;
+
+}
+
+@media screen and (min-width: 900px) {
+    #accueil h2 {
+        font-size: 100px;
+    }
+}
+
+#accueil h1 {
+    font-size: 60px;
+}
+
+li {
+    list-style-type: none;
+}
